@@ -170,7 +170,7 @@ function About() {
             </div>
           </div>
           <div className="relative">
-            <img src="https://images.unsplash.com/photo-1594638019040-4b0cd0e72e7a?auto=format&fit=crop&w=700&q=85" alt="Fabric" className="w-full h-[480px] object-cover"/>
+            <img src="https://images.unsplash.com/photo-1622532470022-24107cac5ef3?auto=format&fit=crop&w=700&q=85" alt="Fabric" className="w-full h-[480px] object-cover"/>
             <div className="absolute -bottom-6 -left-6 bg-bt-brown p-6 shadow-xl">
               <p className="font-display text-3xl font-bold text-bt-gold">426</p>
               <p className="font-body text-xs text-bt-cream/80 uppercase tracking-widest mt-0.5">High Road Leyton</p>
@@ -412,7 +412,7 @@ function WhyBanadir() {
             </div>
           </div>
           <div className="relative">
-            <img src="https://images.unsplash.com/photo-1586495777744-4e6232bf4796?auto=format&fit=crop&w=700&q=85" alt="Production" className="w-full h-[420px] object-cover opacity-80"/>
+            <img src="https://images.unsplash.com/photo-1524292332709-b33366a7f165?auto=format&fit=crop&w=700&q=85" alt="Production" className="w-full h-[420px] object-cover opacity-80"/>
             <div className="absolute inset-0 border-2 border-bt-gold/30"/>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-bt-dark/80 to-transparent p-8">
               <div className="flex gap-8">{[["50+","Products"],["30+","Countries"],["99%","Retention"]].map(([n,l])=>(
@@ -475,7 +475,7 @@ function Footer() {
             <p className="font-body text-xs font-bold text-bt-gold uppercase tracking-widest mb-4">Legal</p>
             <p className="font-body text-sm text-bt-medium mb-2">Company No. 16559699</p>
             <p className="font-body text-sm text-bt-medium mb-2">Registered in England & Wales</p>
-            <p className="font-body text-sm text-bt-medium mb-4">VAT Registration Pending</p>
+            <p className="font-body text-sm text-bt-medium mb-4">VAT No. 507 5593 76</p>
             <a href="mailto:admin@banadirtextiles.com" className="font-body text-sm text-bt-gold hover:text-white transition-colors">admin@banadirtextiles.com</a>
           </div>
         </div>
