@@ -50,7 +50,7 @@ function Navigation({ currency, setCurrency, loading }: { currency:Currency; set
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ${scrolled?"bg-white shadow-md py-2":"bg-transparent py-4"}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
         <a href="#hero" className="flex items-center gap-3 flex-shrink-0">
-          <img src={LOGO_B64} alt="Banadir Textiles" className="h-11 w-11 object-contain"/>
+          <img src={LOGO_B64} alt="Banadir Textiles" className="h-16 w-16 object-contain"/>
           <div className="hidden sm:block">
             <p className="font-display font-bold text-bt-brown text-base leading-tight">Banadir Textiles</p>
             <p className="font-body text-bt-medium text-xs tracking-widest uppercase">London · Est. 2025</p>
@@ -462,7 +462,7 @@ function Footer() {
         <div className="grid md:grid-cols-4 gap-10 mb-10">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <img src={LOGO_B64} alt="Banadir Textiles" className="h-14 w-14 object-contain opacity-90"/>
+              <img src={LOGO_B64} alt="Banadir Textiles" className="h-24 w-24 object-contain opacity-90"/>
               <div><p className="font-display font-bold text-white text-lg">Banadir Textiles</p><p className="font-body text-bt-medium text-xs tracking-widest uppercase">Ltd — London</p></div>
             </div>
             <p className="font-body text-bt-medium text-sm leading-relaxed max-w-xs">Premium textile import and export. Connecting global producers with UK and international buyers.</p>
